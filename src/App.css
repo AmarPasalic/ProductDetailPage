@@ -1,3 +1,16 @@
+@font-face {
+  font-family: 'Inter';
+  src: url(../fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
 *{
-  font-family: in;
+  font-family: 'Inter';
+  padding: 0;
+  margin: 0;
+}
+
+.bigWrap{
+margin-top: 10vh;
+width: 100vw;
+display: flex;
+flex-direction: column;
 }
