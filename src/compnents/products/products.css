@@ -1,0 +1,91 @@
+.ProductsContainer{
+    width: 90vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.productsTitle{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.productsTitle h1{
+font-size: 48px;
+font-weight: 400;
+}
+
+.products1{
+    width: 100%;
+    height:80% ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.product{
+    width: 23%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.productImage{
+    width: 100%;
+    height: 70%;
+}
+.productImage img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.product1Text{
+    width: 95%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.productName h3{
+font-size: 20px;
+font-weight: 400;
+}
+.productStars h4{
+font-size: 14px;
+}
+.productPrice{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.productPrice h4{
+    font-size: 24px;
+}
+.Productdiscount{
+    width: 65%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Productdiscount h6{
+    font-size: 24px;
+    color: #00000066;
+
+}
+.productDiscounted{
+    width: 58px;
+    height: 27px;
+    border-radius: 62px;
+    background: #FF33331A;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.productDiscounted h5{
+    font-size: 12px;
+    color: #FF3333;
+}
