@@ -1,0 +1,66 @@
+.reviewWrapper{
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.review_title{
+    width: 40%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #000000;
+}
+.review_title h1{
+    font-size: 30px;
+
+}
+.reviewMiniTitle{
+    width: 100%;
+    height: 5%;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+}
+.reviewMiniTitle h2{
+    font-size: 24px;
+}
+.reviewMiniTitle span{
+    color: #00000099;
+    font-size: 16px;
+}
+.reviewsContainer{
+    width: 100%;
+    height: 82%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: space-between;
+    justify-content: space-evenly;
+}
+.review{
+    width: 45%;
+    height: 30%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid #0000001A;
+      border-radius: 20px;
+}
+.reviewWrap{
+    width: 80%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.reviewUser h1{
+    font-size: 20px;
+}
+.reviewText p{
+    color: #00000099;
+   font-size: 16px;
+}
